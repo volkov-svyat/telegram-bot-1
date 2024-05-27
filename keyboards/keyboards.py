@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 def get_keyboard_1():
     keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
     button_1 = KeyboardButton('Отправь фото кота')
-    button_2 = KeyboardButton('Перейти на следущую клиавиатуру')
+    button_2 = KeyboardButton('Перейти на следущую клавиатуру')
     keyboard.add(button_1, button_2)
     return keyboard
 
